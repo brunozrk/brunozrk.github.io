@@ -1,0 +1,9 @@
+# Site settings
+title: Bruno Zeraik
+email: brunozrk@gmail.com
+description: Remando contra a maré, desenvolvendo software sem café!
+twitter_username: brunozrk
+github_username:  brunozrk
+
+# Build settings
+markdown: kramdown
