@@ -10,4 +10,8 @@ url: http://brunozrk.github.io/
 # Build settings
 markdown: kramdown
 
+# Google Analytics
 ga_tracking_id : 'UA-59323333-3'
+
+# Comments
+disqus_shortname: brunozeraik

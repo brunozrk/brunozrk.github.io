@@ -3,6 +3,7 @@ layout: post
 title:  "Configurando Code Climate integrado ao Travis"
 date:   2015-05-19 14:35:15
 categories: codeclimate
+comments: true
 ---
 
 O [Code Climate](https://codeclimate.com/) é usado para ser um "*code-reviewer*" automatizado do seu código, ele vai olhar coisas como qualidade, segurança, estilo e cobertura de testes do seu código.
