@@ -9,3 +9,5 @@ url: http://brunozrk.github.io/
 
 # Build settings
 markdown: kramdown
+
+ga_tracking_id : 'UA-59323333-3'
