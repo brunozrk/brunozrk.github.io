@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Configurando Code Climate integrado ao Travis"
-date:   2015-05-19 14:35:15
+date:   2015-04-19 14:35:15
 categories: codeclimate
 comments: true
 ---
