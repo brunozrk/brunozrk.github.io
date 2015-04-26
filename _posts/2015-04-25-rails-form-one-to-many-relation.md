@@ -200,7 +200,6 @@ def create
 end
 
 def update
-  binding.pry
   @person = Person.find(params[:id])
   if @person.update_attributes(person_params)
     redirect_to people_path
