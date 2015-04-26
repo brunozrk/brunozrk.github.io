@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Rails form one to many relation"
+title:  "Rails form one to many relationship"
 date:   2015-04-25 14:35:15
 categories: complex-form
 comments: true
