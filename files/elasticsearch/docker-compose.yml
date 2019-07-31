@@ -1,0 +1,23 @@
+version: '3'
+services:
+  elasticsearch:
+    image: elasticsearch:7.1.0
+    ports:
+      - '9200:9200'
+      - '9300:9300'
+    environment:
+      - discovery.type=single-node
+    volumes:
+      - esdata1:/usr/share/elasticsearch/data
+  kibana:
+    image: kibana:7.1.0
+    depends_on:
+      - elasticsearch
+    ports:
+      - '5601:5601'
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+
+volumes:
+  esdata1:
+    driver: local
