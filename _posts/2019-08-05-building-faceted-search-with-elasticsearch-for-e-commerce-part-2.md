@@ -6,7 +6,8 @@ excerpt: It's time to improve our aggregations to avoid repetition and rework.
 comments: true
 ---
 
-Before you continue, make sure you read the previous post: [Building faceted search with elasticsearch for e-commerce: part 1]({{site.url}}{{site.baseurl}}/building-faceted-search-with-elasticsearch-for-e-commerce-part-1)
+Before you continue, make sure you read the previous post:
+- [Building faceted search with elasticsearch for e-commerce: part 1]({{site.url}}{{site.baseurl}}/building-faceted-search-with-elasticsearch-for-e-commerce-part-1)
 
 Alright, let's see how we can make our queries better. Before the solution, I'd like to dive a bit into aggregation to make the understanding clearer.
 
