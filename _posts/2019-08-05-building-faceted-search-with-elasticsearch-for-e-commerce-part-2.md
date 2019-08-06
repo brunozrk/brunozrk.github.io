@@ -2,6 +2,7 @@
 title:  "Building faceted search with elasticsearch for e-commerce: part 2"
 date:   2019-08-05
 <!-- tags: elasticsearch -->
+excerpt: It's time to improve our aggregations to avoid repetition and rework.
 comments: true
 ---
 

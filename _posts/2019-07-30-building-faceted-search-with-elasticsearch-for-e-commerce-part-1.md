@@ -2,6 +2,7 @@
 title:  "Building faceted search with elasticsearch for e-commerce: part 1"
 date:   2019-07-30
 <!-- tags: elasticsearch -->
+excerpt: Elasticsearch, querying, aggregations... Let's see it in practice.
 comments: true
 ---
 
