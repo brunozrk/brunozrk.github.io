@@ -31,7 +31,7 @@ Our use case will be an e-commerce that sells shoes. The faceted search will be 
 
 ### Populating Elasticsearch
 
-Elasticsearch can create index for us on demand, which means that we can ask it to index some documents, and if that index does not exists, ES will automatically create the index and mapping. For now, we'll use this automatic behavior, but after we will need map our index before insert something. So, lets put some documents in ES:
+Elasticsearch can create index for us on demand, which means that we can ask it to index some documents, and if that index does not exists, ES will automatically create the index and mapping. For now, we'll use this automatic behavior, but in some point we will need map our index before insert something. So, lets put some documents in ES:
 
 ```json
 POST _bulk
@@ -210,8 +210,8 @@ response:
 Good, we built the presentation of the faceted search, but that approach is not the ideal.
 We have two poblems here:
 
-- First: If we need remove or add a new property to that products, we will need change our query removing or adding the new property. It is not good.
-- Second: Brand, color and department works pefectly for shoes, but lets say we also want sell beers in our store (why not?). The color does not make much sense, we will need different queries for differents types of products.
+- First: If we need remove or add a new property to that products, we would need to change our query removing or adding the new property. It is not good.
+- Second: Brand, color and department works pefectly for shoes, but lets say we also want sell beers in our store (why not?). The color does not make much sense, we would need different queries for differents types of products.
 
 In the next article, we'll see how to solve theese problems. See you.
 
