@@ -333,6 +333,6 @@ The response now is:
 
 ## Conclusion
 
-Now we solved our problems, if a new property must be added, it will just be a new object in array and the query won't change. And now, it doesn't matter if the products has the same properties or not, it will work, all we need to do is index using `facet_name` and `facet_value.
+Now we solved our problems, if a new property must be added, it will just be a new object in array and the query won't change. And now, it doesn't matter if the products has the same properties or not, it will work, all we need to do is index using `facet_name` and `facet_value`.
 
 We are good by now, but it is not enough, in the next chapter we will see how that query will be if the customer filters something. See you!
